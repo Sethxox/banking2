@@ -23,7 +23,7 @@ const config = {
         fill: {
           1: "rgba(255, 255, 255, 0.10)",
         },
-        bankGradient: "#0179FE",
+        bankGradient: "#d16a02",
         indigo: {
           500: "#6172F3",
           700: "#3538CD",
@@ -44,6 +44,12 @@ const config = {
           700: "#C11574",
           900: "#851651",
         },
+        brown: {
+          100: "#fcaf56",
+          200: "#fca656",
+          300: "#d9993b",
+          400: "#ed5e05",
+        },
         blue: {
           25: "#F5FAFF",
           100: "#D1E9FF",
@@ -57,7 +63,9 @@ const config = {
         },
         black: {
           1: "#00214F",
-          2: "#344054",
+          2: "#d18336",
+          3: "#fcaf56",
+          4: "#222222",
         },
         gray: {
           25: "#FCFCFD",
@@ -70,7 +78,7 @@ const config = {
         },
       },
       backgroundImage: {
-        "bank-gradient": "linear-gradient(90deg, #0179FE 0%, #4893FF 100%)",
+        "bank-gradient": "linear-gradient(90deg, #4f3703 0%, #f5a30a 100%)",
         "gradient-mesh": "url('/icons/gradient-mesh.svg')",
         "bank-green-gradient":
           "linear-gradient(90deg, #01797A 0%, #489399 100%)",
@@ -85,8 +93,9 @@ const config = {
       },
       fontFamily: {
         inter: "var(--font-inter)",
-        "ibm-plex-serif": "var(--font-ibm-plex-serif)",
-        "lilita-one": "var(--font-lilita-one)",
+        lilita_one: "var(--font-lilita-one)",
+        slabo: "var(--font-slabo)",
+        lato: "var(--font-lato)",
       },
       keyframes: {
         "accordion-down": {

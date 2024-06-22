@@ -19,7 +19,7 @@
   scrollbar-width: none; /* Firefox */
 }
 .glassmorphism {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(246, 203, 154, 0.25);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
@@ -31,16 +31,16 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: #dddddd;
+  background: #fad6aa;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #5c5c7b;
+  background: #846d55;
   border-radius: 50px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #7878a3;
+  background: #ffd9a3;
 }
 
 @layer utilities {
@@ -61,7 +61,7 @@
   }
 
   .header-2 {
-    @apply text-18 font-semibold text-gray-900;
+    @apply text-18 font-black text-gray-900;
   }
 
   .text-10 {
@@ -175,7 +175,7 @@
   }
 
   .profile-name {
-    @apply text-24 font-semibold text-gray-900;
+    @apply text-24 font-bold text-gray-900;
   }
 
   .profile-email {
@@ -369,7 +369,7 @@
   }
 
   .sidebar-logo {
-    @apply 2xl:text-26 font-ibm-plex-serif text-[26px] font-bold text-black-1 max-xl:hidden;
+    @apply 2xl:text-26 font-lato text-[26px] font-bold text-black-1 max-xl:hidden;
   }
 
   .sidebar-link {
